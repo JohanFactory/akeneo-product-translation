@@ -1,4 +1,5 @@
 services:
+ macopedia.mass_edit.update_product_translations.processor:
   Macopedia\Translator\Connector\Processor\MassEdit\TranslateAttributesProcessor:
     arguments:
       - '@Macopedia\Translator\Translator\GoogleTranslator'
