@@ -1,0 +1,6 @@
+jobs:
+        update_product_translations:
+                connector: internal
+                alias: update_product_translations
+                label: Translate products
+                type: mass_edit
