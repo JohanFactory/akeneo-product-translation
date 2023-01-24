@@ -1,0 +1,14 @@
+services:
+  macopedia.job.default_values_provider.translate_product:
+    class: '%pim_enrich.connector.job.job_parameters.default_values_provider.product_mass_edit.class%'
+    arguments:
+      - [ 'update_product_translations' ]
+    tags:
+      - { name: akeneo_batch.job.job_parameters.default_values_provider }
+
+  macopedia.job.constraint_collection_provider.translate_product:
+    class: %pim_enrich.connector.job.job_parameters.constraint_collection_provider.product_mass_edit.class%'
+    arguments:
+      - [ 'update_product_translations' ]
+    tags:
+      - { name: akeneo_batch.job.job_parameters.constraint_collection_provider }
