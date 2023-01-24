@@ -1,0 +1,9 @@
+  macopedia.job.update_product_translations:
+    class: '%pim_connector.job.simple_job.class%'
+    arguments:
+      - 'update_product_translations'
+      - '@event_dispatcher'
+      - '@akeneo_batch.job_repository'
+      - [ '@macopedia.step.update_product_translations.mass_edit' ]
+    tags:
+      - { name: akeneo_batch.job, connector: '%pim_enrich.connector_name.mass_edit%', type: '%pim_enrich.job.mass_edit_type%' }
