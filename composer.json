@@ -1,14 +1,14 @@
 {
-  "name": "macopedia/akeneo-product-translation",
+  "name": "johanfactory/akeneo-product-translation",
   "type": "symfony-bundle",
-  "description": "Translation extension for Akeneo",
+  "description": "Translation extension for Akeneo. Fork, original by Piotr Musiał macopedia.com",
   "version": "0.2.3",
   "license": "OSL-3.0",
   "authors": [
     {
-      "name": "Piotr Musiał",
-      "email": "piotrmus@gmail.com",
-      "homepage": "https://www.macopedia.com"
+      "name": "Johan Factory",
+      "email": "johan@null.com",
+      "homepage": "https://www.null.com"
     }
   ],
   "require": {
