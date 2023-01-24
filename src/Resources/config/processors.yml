@@ -1,0 +1,7 @@
+services:
+  Macopedia\Translator\Connector\Processor\MassEdit\TranslateAttributesProcessor:
+    arguments:
+      - '@Macopedia\Translator\Translator\GoogleTranslator'
+      - '@pim_catalog.repository.attribute'
+      - '@pim_catalog.entity_with_family_variant.check_attribute_editable'
+      - '@pim_catalog.updater.property_setter'
