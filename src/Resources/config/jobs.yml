@@ -1,3 +1,4 @@
+services:
   macopedia.job.update_product_translations:
     class: '%pim_connector.job.simple_job.class%'
     arguments:
